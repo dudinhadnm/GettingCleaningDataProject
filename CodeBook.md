@@ -1,15 +1,3 @@
----
-output:
-  pdf_document: default
----
-
----
-output:
-  pdf_document: default
----
-
-
-
 # Code Book: Getting and Cleaning Data Course Project
 
 
