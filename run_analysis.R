@@ -31,7 +31,7 @@ colIndMeanStd <- grep("mean\\(\\)|std", names(fulldata))
 
 ## creates "selectedCol" subset of "fulldata" containing the subject, the y variable and the mean and std variables
 selectedCol <- subset(fulldata, select = c(1,colIndMeanStd, 563))
-##end of step 2----------------
+##end of step 2---------------- 
 
 
 ##Step 3: Uses descriptive activity names to name the activities in the data set
