@@ -47,7 +47,7 @@ finalData <- subset(withNames, select = -c(activitylabel))
 
 ## transforms the variable with activity names from character to factor
 finalData$activityname <- factor(finalData$activityname)
-## end of step 3----------------
+## end of step 3---------------- 
 
 
 ##Step 4: Appropriately labels the data set with descriptive variable names
