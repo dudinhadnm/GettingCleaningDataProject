@@ -1,11 +1,3 @@
-<<<<<<< HEAD
----
-output:
-  pdf_document: default
-  html_document: default
----
-=======
->>>>>>> 5a4e9617a3f00dcb07f0b1c72dfc15601ddaac6a
 # Code Book: Getting and Cleaning Data Course Project
 
 
@@ -26,7 +18,6 @@ In the tidy data set, the values shown represent the average of each variable, s
 
 ## Code Book  
 1 activityname  
-<<<<<<< HEAD
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label with the name of the activity performed by the subject  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING"  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING_UPSTAIRS"  
@@ -83,9 +74,9 @@ In the tidy data set, the values shown represent the average of each variable, s
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the y axis of the phone (time domain signal)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)<br>
   
-14 timegravityaccelerationstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
+14 timegravityaccelerationstdz  	<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the z axis of the phone (time domain signal)   	<br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br> 
   
 15 timebodyaccelerationjerkmeanx  	
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the x axis of the phone (time domain signal)   	
