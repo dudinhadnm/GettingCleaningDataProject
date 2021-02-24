@@ -30,278 +30,278 @@ In the tidy data set, the values shown represent the average of each variable, s
 
 ## Code Book  
 1 activityname  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label with the name of the activity performed by the subject  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING"  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING_UPSTAIRS"  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING_DOWNSTAIRS"  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"SITTING"  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"STANDING"  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"LAYING"  
-  
-2 subject  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identifier of the subject who carried out the experiment  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 to 30
-  
-3 timebodyaccelerationmeanx  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the x axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-4 timebodyaccelerationmeany  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the y axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-5 timebodyaccelerationmeanz  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the z axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-6 timebodyaccelerationstdx  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the x axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-7 timebodyaccelerationstdy  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the y axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-8 timebodyaccelerationstdz  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the z axis of the phone (time domain signal)   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-9 timegravityaccelerationmeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-10 timegravityaccelerationmeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-11 timegravityaccelerationmeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-12 timegravityaccelerationstdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-13 timegravityaccelerationstdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-14 timegravityaccelerationstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-15 timebodyaccelerationjerkmeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-16 timebodyaccelerationjerkmeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-17 timebodyaccelerationjerkmeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-18 timebodyaccelerationjerkstdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-19 timebodyaccelerationjerkstdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-20 timebodyaccelerationjerkstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-21 timebodygyroscopemeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-22 timebodygyroscopemeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-23 timebodygyroscopemeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-24 timebodygyroscopestdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-25 timebodygyroscopestdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-26 timebodygyroscopestdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-27 timebodygyroscopejerkmeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-28 timebodygyroscopejerkmeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-29 timebodygyroscopejerkmeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) 
-  
-30 timebodygyroscopejerkstdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the x axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-31 timebodygyroscopejerkstdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the y axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-32 timebodygyroscopejerkstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the z axis of the phone (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-33 timebodyaccelerationmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-34 timebodyaccelerationmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-35 timegravityaccelerationmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the gravity acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-36 timegravityaccelerationmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the gravity acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-37 timebodyaccelerationjerkmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-38 timebodyaccelerationjerkmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body acceleration  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-39 timebodygyroscopemagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body angular velocity vector  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-40 timebodygyroscopemagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body angular velocity vector  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-41 timebodygyroscopejerkmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body angular velocity vector  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-42 timebodygyroscopejerkmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body angular velocity vector  (time domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-43 frequencybodyaccelerationmeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-44 frequencybodyaccelerationmeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-45 frequencybodyaccelerationmeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g) 
-  
-46 frequencybodyaccelerationstdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g) 
-  
-47 frequencybodyaccelerationstdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-48 frequencybodyaccelerationstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-49 frequencybodyaccelerationjerkmeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-50 frequencybodyaccelerationjerkmeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-51 frequencybodyaccelerationjerkmeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-52 frequencybodyaccelerationjerkstdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-53 frequencybodyaccelerationjerkstdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-54 frequencybodyaccelerationjerkstdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-55 frequencybodygyroscopemeanx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-56 frequencybodygyroscopemeany  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-57 frequencybodygyroscopemeanz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) 
-  
-58 frequencybodygyroscopestdx  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the x axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) 
-  
-59 frequencybodygyroscopestdy  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the y axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-60 frequencybodygyroscopestdz  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the z axis of the phone (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-61 frequencybodyaccelerationmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body acceleration  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-62 frequencybodyaccelerationmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body acceleration  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-63 frequencybodyaccelerationjerkmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body acceleration  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-64 frequencybodyaccelerationjerkmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body acceleration  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  
-  
-65 frequencybodygyroscopemagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body angular velocity vector  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-66 frequencybodygyroscopemagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body angular velocity vector  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-67 frequencybodygyroscopejerkmagnitudemean  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body angular velocity vector  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
-  
-68 frequencybodygyroscopejerkmagnitudestd  	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body angular velocity vector  (frequency domain signal)   	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Label with the name of the activity performed by the subject<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING_UPSTAIRS"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"WALKING_DOWNSTAIRS"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"SITTING"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"STANDING"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"LAYING"<br>
+  
+2 subject<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Identifier of the subject who carried out the experiment<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1 to 30<br>
+  
+3 timebodyaccelerationmeanx<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the x axis of the phone (time domain signal)   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+4 timebodyaccelerationmeany  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the y axis of the phone (time domain signal)   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+ 
+5 timebodyaccelerationmeanz  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the z axis of the phone (time domain signal)  <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g) <br> 
+  
+6 timebodyaccelerationstdx  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the x axis of the phone (time domain signal)  <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+7 timebodyaccelerationstdy  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the y axis of the phone (time domain signal)   <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+8 timebodyaccelerationstdz  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the z axis of the phone (time domain signal)  <br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+9 timegravityaccelerationmeanx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+10 timegravityaccelerationmeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+11 timegravityaccelerationmeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean gravity acceleration on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+12 timegravityaccelerationstdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the x axis of the phone (time domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+13 timegravityaccelerationstdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+14 timegravityaccelerationstdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the gravity acceleration on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+15 timebodyaccelerationjerkmeanx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+16 timebodyaccelerationjerkmeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+17 timebodyaccelerationjerkmeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+18 timebodyaccelerationjerkstdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+19 timebodyaccelerationjerkstdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+20 timebodyaccelerationjerkstdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+21 timebodygyroscopemeanx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+22 timebodygyroscopemeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the y axis of the phone (time domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+23 timebodygyroscopemeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+24 timebodygyroscopestdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+25 timebodygyroscopestdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+26 timebodygyroscopestdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br><br>
+  
+27 timebodygyroscopejerkmeanx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+28 timebodygyroscopejerkmeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+29 timebodygyroscopejerkmeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body angular velocity vector on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) <br>
+  
+30 timebodygyroscopejerkstdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the x axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+31 timebodygyroscopejerkstdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the y axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+32 timebodygyroscopejerkstdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body angular velocity vector on the z axis of the phone (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+33 timebodyaccelerationmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+34 timebodyaccelerationmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+35 timegravityaccelerationmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the gravity acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+36 timegravityaccelerationmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the gravity acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+37 timebodyaccelerationjerkmagnitudemean  <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+38 timebodyaccelerationjerkmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body acceleration  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+39 timebodygyroscopemagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body angular velocity vector  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+40 timebodygyroscopemagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body angular velocity vector  (time domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+41 timebodygyroscopejerkmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body angular velocity vector  (time domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+42 timebodygyroscopejerkmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body angular velocity vector  (time domain signal)  <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+43 frequencybodyaccelerationmeanx  	<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the x axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+44 frequencybodyaccelerationmeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the y axis of the phone (frequency domain signal) <br>  	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+45 frequencybodyaccelerationmeanz  <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body acceleration on the z axis of the phone (frequency domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g) <br>
+  
+46 frequencybodyaccelerationstdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the x axis of the phone (frequency domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g) <br>
+  
+47 frequencybodyaccelerationstdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the y axis of the phone (frequency domain signal) <br>  	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+48 frequencybodyaccelerationstdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body acceleration on the z axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+49 frequencybodyaccelerationjerkmeanx <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the x axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+50 frequencybodyaccelerationjerkmeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the y axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+51 frequencybodyaccelerationjerkmeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean jerk of body acceleration on the z axis of the phone (frequency domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+52 frequencybodyaccelerationjerkstdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the x axis of the phone (frequency domain signal)  <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+53 frequencybodyaccelerationjerkstdy  <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the y axis of the phone (frequency domain signal)  <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+54 frequencybodyaccelerationjerkstdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the jerk of body acceleration on the z axis of the phone (frequency domain signal) <br>  	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+55 frequencybodygyroscopemeanx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the x axis of the phone (frequency domain signal) <br>  	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+56 frequencybodygyroscopemeany  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the y axis of the phone (frequency domain signal)  <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+57 frequencybodygyroscopemeanz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean body angular velocity vector on the z axis of the phone (frequency domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) <br>
+  
+58 frequencybodygyroscopestdx  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the x axis of the phone (frequency domain signal)  <br> 	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s) <br>
+  
+59 frequencybodygyroscopestdy  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the y axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+60 frequencybodygyroscopestdz  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the body angular velocity vector on the z axis of the phone (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+61 frequencybodyaccelerationmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body acceleration  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+62 frequencybodyaccelerationmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body acceleration  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+63 frequencybodyaccelerationjerkmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body acceleration  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+64 frequencybodyaccelerationjerkmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body acceleration  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: standard gravity units (g)  <br>
+  
+65 frequencybodygyroscopemagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the body angular velocity vector  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+66 frequencybodygyroscopemagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the body angular velocity vector  (frequency domain signal)   <br>	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+67 frequencybodygyroscopejerkmagnitudemean  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mean magnitude of the jerk of body angular velocity vector  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
+  
+68 frequencybodygyroscopejerkmagnitudestd  	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standard deviation of the magnitude of the jerk of body angular velocity vector  (frequency domain signal)   	<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Units: radians/second (rad/s)  <br>
